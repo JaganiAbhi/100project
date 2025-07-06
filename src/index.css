@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600;700&family=Crimson+Text:wght@400;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles for the car marketplace */
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #fafafa;
+}
+
+.luxury-gradient {
+  background: linear-gradient(135deg, #D4A574 0%, #1A2332 100%);
+}
+
+.glass-effect {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.car-card-hover {
+  transition: all 0.3s ease;
+}
+
+.car-card-hover:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+.text-shadow {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.hero-overlay {
+  background: linear-gradient(
+    45deg,
+    rgba(26, 35, 50, 0.8) 0%,
+    rgba(212, 165, 116, 0.3) 100%
+  );
+}
